@@ -1,7 +1,9 @@
+import { heebo } from "@/utils/fonts";
 const Header = () => {
+  const navLinks = ["Works", "Blog", "Contact"];
   return (
-    <header className="fixed w-full h-50  p-4 bg-white">
-      <button>
+    <header className="fixed w-full h-50  p-4 md:p-6 bg-white">
+      <button className="md:hidden">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -14,6 +16,16 @@ const Header = () => {
           />
         </svg>
       </button>
+      <div className="hidden md:flex items-center w-full  md:text-black">
+        <div className="w-3/4"></div>
+        <div className={`${heebo.className} w-1/4`}>
+          <ul className="flex justify-between w-full font-medium text-xl">
+            {navLinks.map((link, i) => (
+              <li>{link}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </header>
   );
 };
