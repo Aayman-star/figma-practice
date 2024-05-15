@@ -17,31 +17,35 @@ const FeaturedWork = ({
   text,
 }: FeaturedWorkProps) => {
   return (
-    <section className="w-full flex flex-col items-center md:max-w-6xl md:ml-[17.5rem]  md:flex-row md:items-center  md:space-x-10 md:mb-4">
-      {/* For the image */}
-      <div className="w-[339px] h-[230px] mb-4 md:mb-0 md:w-[246px] md:h-[180px]">
-        <Image className="w-full rounded-md" src={img} alt="work image" />
-      </div>
-      {/* For the data */}
-      <div className="w-[344px] flex flex-col md:flex-1 md:h-[180px]  items-start md:justify-between">
-        <h4 className="font-bold text-2xl text-left text-[#21243D] ">
-          {title}
-        </h4>
-        <div className="flex items-center space-x-10 mt-2 mb-4">
-          <div>
-            <p className="bg-[#142850] text-white text-base font-black px-2 rounded-full">
-              {year}
-            </p>
-          </div>
-          <div>
-            <p className="text-[#8695A4] text-base">{label}</p>
-          </div>
+    <>
+      <section className="w-full flex flex-col items-center md:max-w-6xl md:ml-[17.5rem]  md:flex-row md:items-center  md:space-x-10 md:mb-4">
+        {/* For the image */}
+
+        <div className="w-[339px] h-[230px] mb-4 md:mb-0 md:w-[246px] md:h-[180px]">
+          <Image className="w-full rounded-md" src={img} alt="work image" />
         </div>
-        <p className="text-[#21243D] text-left text-base mb-2 md:w-[600px] md:h-[93px]">
-          {text}
-        </p>
-      </div>
-    </section>
+        {/* For the data */}
+        <div className="w-[344px] flex flex-col md:flex-1 md:h-[180px]  items-start md:justify-between">
+          <h4 className="font-bold text-2xl text-left text-[#21243D] ">
+            {title}
+          </h4>
+          <div className="flex items-center space-x-10 mt-2 mb-4">
+            <div>
+              <p className="bg-[#142850] text-white text-base font-black px-2 rounded-full">
+                {year}
+              </p>
+            </div>
+            <div>
+              <p className="text-[#8695A4] text-base">{label}</p>
+            </div>
+          </div>
+          <p className="text-[#21243D] text-left text-base mb-2 md:w-[600px] md:h-[93px]">
+            {text}
+          </p>
+        </div>
+      </section>
+      <hr className="w-[100%] md:ml-[17.5rem] h-[1px] mx-auto bg-[#8695A4] my-4" />
+    </>
   );
 };
 
