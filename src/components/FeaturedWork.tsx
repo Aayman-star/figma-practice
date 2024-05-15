@@ -17,7 +17,7 @@ const FeaturedWork = ({
   text,
 }: FeaturedWorkProps) => {
   return (
-    <section className="w-full flex flex-col items-center md:max-w-6xl md:flex-row md:items-center  md:space-x-10 md:mb-4">
+    <section className="w-full flex flex-col items-center md:max-w-6xl md:ml-[17.5rem]  md:flex-row md:items-center  md:space-x-10 md:mb-4">
       {/* For the image */}
       <div className="w-[339px] h-[230px] mb-4 md:mb-0 md:w-[246px] md:h-[180px]">
         <Image className="w-full rounded-md" src={img} alt="work image" />

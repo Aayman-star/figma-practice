@@ -34,8 +34,10 @@ const Data = [
 ];
 const FeaturedWorks = () => {
   return (
-    <section className="w-full bg-white md:max-w-6xl md:mx-auto text-black flex flex-col items-center">
-      <h4 className="text-lg  py-4 md:self-start">Featured works</h4>
+    <section className="w-full bg-white grid place-content-center md:place-content-start">
+      <h4 className="text-[1.375rem] text-black py-4 text-center md:text-left md:ml-[17.5rem]">
+        Featured works
+      </h4>
       {/* <Image src={Img} alt="Featured Work Image" /> */}
       {Data.map((item, id) => (
         <FeaturedWork key={item.id} {...item} />

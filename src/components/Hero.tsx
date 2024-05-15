@@ -6,7 +6,7 @@ const heebo = Heebo({ subsets: ["latin"] });
 const Hero = () => {
   return (
     <section
-      className={`${heebo.className} w-full min-h-screen  bg-white  flex flex-col items-center justify-evenly md:max-w-6xl md:mx-auto md:flex-row-reverse md:items-center md:justify-around`}>
+      className={`${heebo.className} w-full min-h-screen  bg-white  flex flex-col items-center justify-evenly md:max-w-6xl md:mx-auto md:flex-row-reverse md:items-center md:justify-center`}>
       <div className="">
         <Image className="mt-11 md:hidden" src={heroMobile} alt="hero-image" />
         <Image
