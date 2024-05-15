@@ -7,11 +7,11 @@ import Footer from "./Footer";
 const MainFile = () => {
   return (
     <div className="bg-white w-full">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Blog />
       <FeaturedWorks />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
