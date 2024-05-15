@@ -16,7 +16,7 @@ const Header = () => {
           />
         </svg>
       </button>
-      <div className="hidden md:flex items-center w-full  md:text-black">
+      <div className="hidden md:flex md:items-center md:max-w-6xl md:mx-auto  md:text-black">
         <div className="w-3/4"></div>
         <div className={`${heebo.className} w-1/4`}>
           <ul className="flex justify-between w-full font-medium text-xl">
