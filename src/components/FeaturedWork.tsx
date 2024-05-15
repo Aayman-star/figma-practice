@@ -44,7 +44,7 @@ const FeaturedWork = ({
           </p>
         </div>
       </section>
-      <hr className="w-[100%] md:ml-[17.5rem] h-[1px] mx-auto bg-[#8695A4] my-4" />
+      <hr className="w-[100%] md:ml-[17.5rem] h-[1px] mx-auto bg-[#E0E0E0] my-4" />
     </>
   );
 };
