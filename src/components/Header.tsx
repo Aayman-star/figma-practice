@@ -1,4 +1,5 @@
 import { heebo } from "@/utils/fonts";
+import Link from "next/link";
 const Header = () => {
   const navLinks = ["Works", "Blog", "Contact"];
   return (
@@ -21,7 +22,9 @@ const Header = () => {
         <div className={`${heebo.className} w-1/4`}>
           <ul className="flex justify-between w-full font-medium text-xl">
             {navLinks.map((link, i) => (
-              <li key={i}>{link}</li>
+              <li key={i}>
+                <Link href={link}>{link}</Link>
+              </li>
             ))}
           </ul>
         </div>
