@@ -1,8 +1,8 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, FC } from "react";
 type Props = {
-  children: ReactNode;
+  children: React.ReactNode;
 };
-const Wrapper = ({ children }: Props) => {
+const Wrapper: FC<Props> = ({ children }: Props) => {
   return (
     <section className="w-full md:max-w-6xl md:mx-auto">{children}</section>
   );
