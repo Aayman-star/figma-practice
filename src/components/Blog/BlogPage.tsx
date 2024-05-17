@@ -7,7 +7,7 @@ const BlogPage = () => {
   return (
     <Wrapper>
       <div className={`${heebo.className} w-full md:px-28 md:py-10`}>
-        <h1 className="-ml-[3rem] md:-ml-0 text-[1.875rem] md:text-[2.75rem] font-bold text-[#21243D]">
+        <h1 className="ml-[1.125rem] md:ml-0 font-medium text-[1.625rem] md:text-[2.75rem] md:font-bold text-[#21243D]">
           Blog
         </h1>
       </div>

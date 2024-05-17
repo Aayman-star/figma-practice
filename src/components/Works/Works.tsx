@@ -39,6 +39,7 @@ const Works = () => {
             <hr className="w-full h-px bg-[#E0E0E0]" />
           </div>
         ))}
+        {/* This arraay is for large screen sizes */}
         {worksList.map((item, id) => (
           <div
             className="hidden w-full mb-4 text-[#21243D] md:block"
