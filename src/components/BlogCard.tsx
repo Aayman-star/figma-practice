@@ -7,7 +7,7 @@ type BlogProps = {
 };
 const BlogCard = ({ id, title, label, date, text }: BlogProps) => {
   return (
-    <section className="bg-white m-4 p-4 pb-2 md:w-[418px] md:h-[18.5rem] rounded-md">
+    <section className="bg-white m-4 p-4  md:w-[418px] md:h-[18.5rem] rounded-md">
       <h3 className="font-bold text-[22px] md:text-[26px] md:w-[374] md:h-[85px]">
         {title}
       </h3>
