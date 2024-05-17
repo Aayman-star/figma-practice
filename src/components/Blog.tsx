@@ -4,9 +4,9 @@ import BlogCard from "./BlogCard";
 const Blog = () => {
   return (
     <section
-      className={`${heebo.className} w-full h-screen bg-[#EDF7FA] mb-8 text-[#21243D] md:h-[25rem] `}>
+      className={`${heebo.className} w-full h-[647px]  bg-[#EDF7FA] md:mb-8 text-[#21243D] md:h-[25rem] `}>
       <div className="w-full h-full md:max-w-6xl md:mx-auto md:grid md:place-content-center">
-        <h3 className="w-full text-center text-lg py-2 md:py-0 md:p-2 md:ml-4 md:text-[1.375rem] md:text-left">
+        <h3 className="w-full text-center text-lg py-2 md:py-0 md:p-2 md:ml-4 md:text-[] md:text-left">
           Recent Posts
         </h3>
         {/* <h3 className="text-lg text-center p-6 md:max-w-6xl md:mx-auto md:text-left md:bg-slate-600">

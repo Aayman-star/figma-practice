@@ -27,7 +27,7 @@ const Header = () => {
           <div className="fixed bg-white right-0 top-0 w-full h-[300px]">
             <ul className="w-full h-[80%] mt-11 p-4 flex flex-col items-start space-y-10">
               {navLinks.map((item, i) => (
-                <li key={item} className="ml-5">
+                <li key={item} className="ml-5 font-semibold">
                   <Link href={item == "Home" ? "/" : item}> {item}</Link>
                 </li>
               ))}
