@@ -21,10 +21,14 @@ const Works = () => {
         </h3>
         {WorksLst.map((item, id) => (
           <div className="w-full mb-4 text-[#21243D] md:hidden" key={item.id}>
-            <div className="mb-4 md:flex items-center md:justify-between">
-              <Image src={item.img} alt="work" />
-              <div className="flex flex-col md:justify-around md:w-1/2">
-                <h4 className="font-bold text-2xl my-2 text-[#21243D]">
+            <div>
+              <Image
+                className="mb-4 md:flex items-center md:justify-between"
+                src={item.img}
+                alt="work"
+              />
+              <div className="flex flex-col  md:justify-around md:w-1/2">
+                <h4 className="font-bold text-2xl my-2  text-[#21243D]">
                   {item.title}
                 </h4>
                 <div className="flex item-center space-x-10 mb-4">

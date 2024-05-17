@@ -18,7 +18,7 @@ const FeaturedWork = ({
 }: FeaturedWorkProps) => {
   return (
     <>
-      <section className="w-full flex flex-col items-center md:max-w-6xl md:ml-[17.5rem]  md:flex-row md:items-center  md:space-x-10 md:mb-4">
+      <section className="w-full flex flex-col items-center md:max-w-6xl md:ml-[9.25rem]  md:flex-row md:items-center  md:space-x-10 md:mb-4">
         {/* For the image */}
 
         <div className="w-[339px] h-[230px] mb-4 md:mb-0 md:w-[246px] md:h-[180px]">
@@ -26,7 +26,7 @@ const FeaturedWork = ({
         </div>
         {/* For the data */}
         <div className="w-[344px] flex flex-col md:flex-1 md:h-[180px]  items-start md:justify-between">
-          <h4 className="font-bold text-2xl text-left text-[#21243D] ">
+          <h4 className="font-bold text-2xl text-left  text-[#21243D] ">
             {title}
           </h4>
           <div className="flex items-center space-x-10 mt-2 mb-4">
@@ -44,7 +44,7 @@ const FeaturedWork = ({
           </p>
         </div>
       </section>
-      <hr className="w-[100%] md:ml-[17.5rem] h-[1px] mx-auto bg-[#E0E0E0] my-4" />
+      <hr className="w-[80%] md:ml-[9.25rem] h-[1px] mx-auto bg-[#E0E0E0] my-4" />
     </>
   );
 };
