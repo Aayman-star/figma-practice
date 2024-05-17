@@ -15,7 +15,7 @@ const BlogDisplay = () => {
     <div className="w-full">
       {BlogContent.map((blog) => (
         <div key={blog.id}>
-          <div className={`${heebo.className}  p-4 md:px-28 md:py-10`}>
+          <div className={`${heebo.className}  p-5 md:px-28 md:py-10`}>
             <h3 className="text-[#21243D] font-medium text-[1.6270rem] md:text-3xl md:mb-4">
               {blog.title}
             </h3>
