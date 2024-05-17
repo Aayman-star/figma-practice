@@ -53,13 +53,13 @@ const FeaturedWorks = () => {
         </h4>
         {/* <Image src={Img} alt="Featured Work Image" /> */}
         {dataMobile.map((item, id) => (
-          <div className="md:hidden">
+          <div key={item.id} className="md:hidden">
             {" "}
             <FeaturedWork key={item.id} {...item} />
           </div>
         ))}
         {dataMd.map((item, id) => (
-          <div className="hidden md:block">
+          <div key={item.id} className="hidden md:block">
             {" "}
             <FeaturedWork key={item.id} {...item} />
           </div>
